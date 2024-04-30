@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="js.js" defer></script>
+  <link rel="stylesheet" href="Converter.css">
+</head>
+<body>
+  <div class="navbar">
+    <img src="pngwing.com.png" class="logo">
+    <text class="text">Currency converter</text>
+    <ul>
+      <li><a href="./Home.html">Home</a></li>
+      <li><a href="./About.html">About</a></li>
+      <li><a href="./Converter.html">Converter</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="bgn">(in bgn)</label>
+        <div class="input-group">
+          <input type="value" class="form-control" id="bgn" placeholder="Amount" type="button"> 
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" id="btn">Convert</button>
+    </form>
+    
+    <label for="currencies" style="font-size: 20px;">Choose a currency:</label>
+    <div class="box">
+      <select name="currencies" id="currencies">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option> 
+        <option value="GBP">GBP</option>
+        <option value="JPY">JPY</option>
+        <option value="RUB">RUB</option>
+      </select>
+    </div>
+    <span id="result" class="result"></span> <span id="curr"></span>
+  </div>
+  
+</body>
+</html>

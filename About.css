@@ -1,0 +1,45 @@
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+  }
+  .text{
+    font-size: 70px;
+    color: white;
+  }
+  .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  body {
+    margin: 0;
+    background-image: url('back.png');
+  }
+  .about {
+    color: white;
+    height: 708px;
+    background-color: rgb(44, 44, 44);
+  }
+  .about h1{
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .about p{
+    font-size: 30px;
+  }
